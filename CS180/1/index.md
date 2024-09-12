@@ -1,4 +1,17 @@
-# <center>CS 180 Project 1: <br> Images of the Russian Empire: <br> Colorizing the [Prokudin-Gorskii](https://www.loc.gov/collections/prokudin-gorskii/) photo collection</center>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<div align="center">
+
+# CS 180 Project 1: Images of the Russian Empire: Colorizing the [Prokudin-Gorskii](https://www.loc.gov/collections/prokudin-gorskii/) photo collection
+
+</div>
 
 ## Introduction 
 
@@ -13,15 +26,15 @@ The naive approach iterates over all possible shifts in both x and y directions 
 
 1. **L2 Norm (Sum of Squared Differences)** is defined as:
 
-   \[
+$$
    \text{L2 Norm} = \sum \sum \left( (\text{image1} - \text{image2})^2 \right)
-   \]
+$$
 
 2. **Normalized Cross-Correlation (NCC)** is defined as:
 
-   \[
+$$
    \text{NCC} = \frac{\text{image1}}{||\text{image1}||} \cdot \frac{\text{image2}}{||\text{image2}||}
-   \]
+$$
 
 The following images performed the best using the naive exhausive search:
 
