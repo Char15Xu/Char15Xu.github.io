@@ -46,9 +46,9 @@ Displacement G: (-3, 0), R: (3, 1)
 
 ![Alt text](media/tobolsk.jpg)
 
+Size: 173K
 Displacement G: (3, 3), R: (6, 3)
 
-Size: 173K
 
 ### Pyramid Search
 
@@ -64,7 +64,7 @@ I also experimented with dynamically adjusting the window size as the scaling fa
 
 Displacement G: (25, 4), R: (58, -4)
 
-![Alt text](media/emiry.jpg)
+![Alt text](media/emir.jpg)
 
 Displacement G: (49, 24), R: (107, 40)
 
