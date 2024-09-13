@@ -110,7 +110,7 @@ Displacement G: (41, 2), R: (85, 29)
 
 ### Additional Techniques (Extra Credit)
 
-However, some images did not perform as expected with approches described above, so I incorporated additional techniques described below for those cases. There are two additional refinement techniques I used: finding gradient and cropping. Sobel gradient acts as a edge detection filter. Conceptually, it highlights the part that is important to the image's change of intensity. Therefore, adding this feature help alignment to be more accurate. Typically, borders does not help alignment process. Hence, croping the outer borader of the image eliminate certain noise that might be inconsistent with the image data. 
+However, some images did not align as expected using the methods described above, so I incorporated additional techniques to handle these cases. I employed two refinement techniques: gradient detection and cropping. The Sobel gradient functions as an edge detection filter, highlighting areas of the image where intensity changes significantly. This feature improves alignment accuracy by focusing on the most important structural elements. Additionally, image borders typically do not contribute to the alignment process, so cropping the outer borders helps eliminate noise that may be inconsistent with the main image content.
 
 Here is an example using gradient and cropping
 
