@@ -5,8 +5,8 @@ Charles Xu
 
 [Create A Personal Website under 5min](https://char15xu.github.io/cse15l-lab-reports/file1.html)
 
-## What I learned from CSE15 lab: 
-[Lab Report 1](lab-report-1-week-2.html) 
 
 ## CS180 Projects:
-[Project 1](CS180)
+[Project 1](CS180/1)
+
+[Project 2](CS180/2)
