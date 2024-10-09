@@ -11,3 +11,5 @@ Charles Xu
 [Project 1](CS180/1)
 
 [Project 2](CS180/2)
+
+[Project 3](CS180/3)
