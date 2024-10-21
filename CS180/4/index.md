@@ -43,8 +43,6 @@ First, we capture several photos. For each set of images taken together, I kept 
 ## Recover homographies
 Given the formula below, we want to calculate the homography matrix H, which has 8 unknowns and a 9th entry representing the scaling factor. For each vector `(x, y)`, the vector on the left is the target. Our goal is to map a vector to the target using the homography matrix H. In practice, we define an equal number of points on each image, maintaining the same order, ensuring that these points correspond across images. Then, we select one set of points as the target points for the others.
 
-For each set of images, I compared the original image with the warped image, as well as the target image with the warped image.
-
 <p align="center">
   <img src="media/h1.png" alt="Image description">
 </p>
@@ -61,6 +59,7 @@ Here are some results of the warpping.
 
 For a single image, based on the defined points, we can construct a rectangle to be the target points. 
 For cases involving multiple images, we can select one set of points from a image as the target points for the others to be warped to. 
+For each set of images, I compared the original image with the warped image, as well as the target image with the warped image.
 
 <p align="center">
   <img src="media/rect1.png" alt="alt text">
