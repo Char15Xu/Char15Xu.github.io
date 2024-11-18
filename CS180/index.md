@@ -9,3 +9,5 @@
 ### [Project 3](./3/index.html) - Face Morphing
 
 ### [Project 4](./4/index.html) - Image Warping and Mosaicing
+
+### [Project 5](./5/index.html) - Fun With Diffusion Models

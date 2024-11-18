@@ -10,6 +10,8 @@
 
 # CS 180 Project 4: Fun With Diffusion Models
 
+
+# Part A: The Power of Diffusion Models!
 For this project, I have set the random seed to be 180 for all tasks. 
 
 ## Part 0: Setup
@@ -277,3 +279,6 @@ Using our custom prompts, “an image of a camera lens” and “a neuron,” we
   <img src="media/1.10.2.png" alt="Image description">
 </p>
 
+
+
+# Part B: Diffusion Models from Scratch!
