@@ -17,3 +17,5 @@ Charles Xu
 [Project 4](CS180/4)
 
 [Project 5](CS180/5)
+
+[Final Project](CS180/final_project)

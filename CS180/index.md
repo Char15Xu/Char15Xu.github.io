@@ -11,3 +11,5 @@
 ### [Project 4](./4/index.html) - Image Warping and Mosaicing
 
 ### [Project 5](./5/index.html) - Fun With Diffusion Models
+
+### [Final Project](./final_project/index.html) - Final Project

@@ -8,7 +8,7 @@
 </script>
 
 
-# CS 180 Project 4: Fun With Diffusion Models
+# CS 180 Project 5: Fun With Diffusion Models
 
 
 # Part A: The Power of Diffusion Models!
