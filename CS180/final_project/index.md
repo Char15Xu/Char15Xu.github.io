@@ -52,11 +52,11 @@
 <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
     <figure>
         <img src="media/1.3.1.jpg" alt="Image description" style="width: auto; height: auto;">
-        <figcaption style="text-align: center;">Penguin</figcaption>
+        <figcaption style="text-align: center;">Mask</figcaption>
     </figure>
     <figure>
         <img src="media/1.3.0.jpg" alt="Penguin Chick Image" style="width: auto; height: auto;">
-        <figcaption style="text-align: center;">Background</figcaption>
+        <figcaption style="text-align: center;">Unblended</figcaption>
     </figure>
     <figure>
         <img src="media/1.2.png" alt="Penguin Chick Image" style="width: auto; height: auto;">
@@ -86,11 +86,11 @@
 <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
     <figure>
         <img src="media/1.6.jpg" alt="Image description" style="width: 500px; height: auto;">
-        <figcaption style="text-align: center;">Penguin</figcaption>
+        <figcaption style="text-align: center;">Mask</figcaption>
     </figure>
     <figure>
         <img src="media/1.5.jpg" alt="Penguin Chick Image" style="width: 500px; height: auto;">
-        <figcaption style="text-align: center;">Background</figcaption>
+        <figcaption style="text-align: center;">Unblended</figcaption>
     </figure>
     <figure>
         <img src="media/1.4.png" alt="Penguin Chick Image" style="width: 500px; height: auto;">
