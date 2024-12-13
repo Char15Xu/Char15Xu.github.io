@@ -104,7 +104,7 @@ Below are three examples demonstrating the Poisson blending technique. The bound
         <figcaption style="text-align: center;">Unblended</figcaption>
     </figure>
     <figure>
-        <img src="media/1.7.png" alt="Penguin Chick Image" style="width: 500px; height: auto;">
+        <img src="media/1.7.png" alt="Penguin Chick Image" style="width: 400px; height: auto;">
         <figcaption style="text-align: center;">Poisson Blended</figcaption>
     </figure>
 </div>
@@ -133,7 +133,7 @@ Below are three examples demonstrating the Poisson blending technique. The bound
         <figcaption style="text-align: center;">Unblended</figcaption>
     </figure>
     <figure>
-        <img src="media/1.10.jpg" alt="Penguin Chick Image" style="width: 500px; height: auto;">
+        <img src="media/1.10.jpg" alt="Penguin Chick Image" style="width: 400px; height: auto;">
         <figcaption style="text-align: center;">Poisson Blended</figcaption>
     </figure>
 </div>
