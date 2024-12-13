@@ -99,3 +99,16 @@
 </div>
 
 
+# Lightfield Camera
+
+## Part 1 - Depth Refocusing
+
+![alt text](media/gif1.gif)
+
+## Part 2 - Aperture Adjustment
+
+![alt text](media/gif2.gif)
+
+## Summary
+
+
