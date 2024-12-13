@@ -1,8 +1,3 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-  });
-</script>
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -48,7 +43,7 @@ To implement this algorithm, we follow three steps:
 
 1. Define the boundaries of a region in the source image and specify its location in the target image where it will be blended.  
 2. Solve the blending constraints for each color channel.  
-3. Copy the computed values \( v_i \) into the corresponding region of the target image.  
+3. Copy the computed values $v_i$ into the corresponding region of the target image. 
 
 Below are three examples demonstrating the Poisson blending technique. The boundaries between the source and target images are smooth and difficult to detect. 
 
