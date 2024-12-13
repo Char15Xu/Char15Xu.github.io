@@ -48,7 +48,7 @@ To implement this algorithm, we follow three steps:
 
 1. Define the boundaries of a region in the source image and specify its location in the target image where it will be blended.  
 2. Solve the blending constraints for each color channel.  
-3. Copy the computed values $ v_i $ into the corresponding region of the target image.  
+3. Copy the computed values \( v_i \) into the corresponding region of the target image.  
 
 Below are three examples demonstrating the Poisson blending technique. The boundaries between the source and target images are smooth and difficult to detect. 
 
@@ -171,7 +171,7 @@ For mixed gradients, we use $ max(d_s, d_t) $ as the guiding gradient instead of
         <figcaption style="text-align: center;">Unblended</figcaption>
     </figure>
     <figure>
-        <img src="media/1.4.png" alt="Penguin Chick Image" style="width: 500px; height: auto;">
+        <img src="media/1.4.png" alt="Penguin Chick Image" style="width: 400px; height: auto;">
         <figcaption style="text-align: center;">Mixed Blended</figcaption>
     </figure>
 </div>
