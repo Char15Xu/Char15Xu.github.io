@@ -4,7 +4,7 @@
   });
 </script>
 <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
 # CS 180 Final Projects
@@ -101,14 +101,37 @@
 
 # Lightfield Camera
 
+In this project, we use a simple averaging technique on lightfield images to reproduce effects at varying depths and apertures. The technique requires images captured over a regularly spaced grid. It was first introduced in this paper:
+
+<p>
+  <a href="https://graphics.stanford.edu/papers/lfcamera/lfcamera-150dpi.pdf" target="_blank">
+     <i>Light Field Photography with a Hand-held Plenoptic Camera</i>  by Ng et al.
+  </a>
+</p>
+
 ## Part 1 - Depth Refocusing
+
+To refocus depth, we exploit the **parallax effect** using images captured over a regularly spaced grid. By applying two simple operations—**shift** and **average**, we can simulate focusing at varying depths.
+
+- **Shifting Images**: We fix the center of the grid and shift other images by their distance from the grid center, multiplied by the scale: \( \alpha \times (8 - dx, 8 - dy) \). In this way, images taken from different viewpoints are spatially shifted to account for parallax. The shift aligns objects at the desired depth while leaving objects at other depths misaligned.  
+
+- **Averaging**: Once the images are aligned, we average pixel-by-pixel. This enhances the sharpness of objects at the target depth while blurring objects elsewhere, simulating a depth focus effect.
+
+In the results below, we show the scale varying from **-2 to 2** with a step size of **0.2**. Initially, the image appears blurry at **-2** because the objects are heavily misaligned. As the scale increases toward **0**, the alignment improves, and objects at a specific depth come into sharp focus, resulting in a clearer image. Beyond this point, the alignment deteriorates as the scale continues to increase and causes the image to blur.
 
 ![alt text](media/gif1.gif)
 
 ## Part 2 - Aperture Adjustment
 
+The **aperture adjustment** technique simulates the effect of changing a camera's aperture size in light field imaging. By averaging images within a specified radius around the center of a grid, it controls how much information from neighboring viewpoints contributes to the final image. A smaller aperture includes fewer images, while a larger aperture averages more images.
+
+In the results below, we show the aperture radius varying from **0 to 8**. With a total of 289 images arranged in a **17x17 grid**, the maximum possible radius is **8**. As demonstrated, increasing the aperture radius incorporates more images into the averaging process. 
+
 ![alt text](media/gif2.gif)
 
 ## Summary
 
+It is surprising to see these results using such simple techniques. After completing this project, I start to appreciate two key observations:
+1. A deep understanding of the relationship between viewpoints and the **parallax effect**.  
+2. The ability to simulate aperture size and depth focus effects using **averaging** technique.
 
