@@ -43,7 +43,7 @@ To implement this algorithm, we follow three steps:
 
 1. Define the boundaries of a region in the source image and specify its location in the target image where it will be blended.  
 2. Solve the blending constraints for each color channel.  
-3. Copy the computed values $v_i$ into the corresponding region of the target image. 
+3. Copy the computed values v_i into the corresponding region of the target image. 
 
 Below are three examples demonstrating the Poisson blending technique. The boundaries between the source and target images are smooth and difficult to detect. 
 
@@ -136,7 +136,7 @@ Below are three examples demonstrating the Poisson blending technique. The bound
 
 ## Bells & Whistles - Mixed Gradients 
 
-For mixed gradients, we use $ max(d_s, d_t) $ as the guiding gradient instead of relying solely on the source gradient. All other steps remain the same to the Poisson blending process. This approach can produce smoother and more natural blending results.
+For mixed gradients, we use max(d_s, d_t) as the guiding gradient instead of relying solely on the source gradient. All other steps remain the same to the Poisson blending process. This approach can produce smoother and more natural blending results.
 
 <p align="center">
   <img src="media/eq2.jpg" alt="Image description">
@@ -188,7 +188,7 @@ In this project, we use a simple averaging technique on lightfield images to rep
 
 To refocus depth, we exploit the **parallax effect** using images captured over a regularly spaced grid. By applying two simple operations—**shift** and **average**, we can simulate focusing at varying depths.
 
-- **Shifting Images**: We fix the center of the grid and shift other images by their distance from the grid center, multiplied by the scale: $ \alpha \times (8 - dx, 8 - dy) $. In this way, images taken from different viewpoints are spatially shifted to account for parallax. The shift aligns objects at the desired depth while leaving objects at other depths misaligned.  
+- **Shifting Images**: We fix the center of the grid and shift other images by their distance from the grid center, multiplied by the scale: scale * (8 - d_x, 8 - d_y). In this way, images taken from different viewpoints are spatially shifted to account for parallax. The shift aligns objects at the desired depth while leaving objects at other depths misaligned.  
 
 - **Averaging**: Once the images are aligned, we average pixel-by-pixel. This enhances the sharpness of objects at the target depth while blurring objects elsewhere, simulating a depth focus effect.
 
